@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: avenir;
+}
+body, html{
+	--background-color: #888;
+}
+#wrapper{
+	width: 600px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+#liste #baslik{
+	text-align: center;
+	color: #444;
+}
+
+.alisverisListesi li .silButon{
+	display: inline-block;
+	float: right;
+	background-color: orange;
+	border-radius: 4px;
+	padding: 0px 40px;
+}
+.alisverisListesi li{
+	display: block;
+	margin-top: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+
+input[type = "text"]{
+	height: 40px;
+	width: 280px;
+}
+button{
+	height: 40px;
+	width: 100px;
+}
+
+div{
+	border:1px solid #e3e3e3;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 20px;
+}
